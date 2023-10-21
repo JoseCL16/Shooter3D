@@ -7,11 +7,14 @@ TagManager:
   - Pistol
   - Shotgun
   - Uzi
+  - Enemy
+  - EnemyBullet
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 

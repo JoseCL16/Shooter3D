@@ -12,8 +12,11 @@ public class PickWeapon : MonoBehaviour
         
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider collision)
     {
-        Destroy(weapon);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(weapon);
+        }
     }
 }
